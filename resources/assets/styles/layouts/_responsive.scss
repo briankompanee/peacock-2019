@@ -1,0 +1,216 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+   /* (1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+  #myCarousel.carousel-fade .home-slide {
+    height: 750px;
+  }
+}
+/* (1275px and less) */
+@media (max-width: 1283px) {
+
+  .navbar-nav>li>a {
+    padding: 10px;
+  }
+  .navbar-default ul.navbar-nav li a {
+    font-size: 11pt;
+    font-weight: 700;
+  }
+  .navbar-default .contact-text {
+    font-size: 11pt;
+  }
+}
+/* (1158px and less) */
+@media (max-width: 1158px) {
+
+}
+/* (1130px and less) */
+@media (max-width: 1130px) {
+
+  .navbar-nav>li>a {
+    padding: 8px;
+  }
+  .navbar-default ul.navbar-nav li a {
+    font-size: 10pt;
+    font-weight: 700;
+  }
+  .navbar-default .contact-text {
+    font-size: 10pt;
+  }
+  #myCarousel.carousel-fade .home-slide {
+      max-height: 600px;
+  }
+}
+/* Tablet Landscape (desktops, 1028px and less) */
+@media (max-width: 1028px) {
+  #myCarousel.carousel-fade .home-slide {
+      max-height: 450px;
+  }
+  .home-sections .home-image-wall a.image-box h3.image-box-text{
+    font-size: 12pt;
+  }
+}
+/* Medium devices (desktops, 992px and less) */
+@media (max-width: $screen-md-min) {
+  ul.menu-sidebar-menu li.menu-item a h3 {
+    font-size: 12pt;
+  }
+}
+/* Small devices (tablets, 770px and up) */
+@media (min-width: $screen-sm-min) {
+
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+/* Small devices (tablets, 770px and less) */
+@media (max-width: $screen-sm-min) {
+
+  body {
+    font-size: 12pt;
+  }
+  .navbar-fixed-top .navbar-collapse {
+    max-height: none;
+  }
+  .navbar-default ul.navbar-nav li .dropdown-menu {
+      background: white;
+      padding: 0;
+      margin: 0;
+      border: none;
+      box-shadow: none;
+  }
+  .navbar-default ul.navbar-nav li a {
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid $rodgun-grey;
+  }
+  .navbar-default ul.navbar-nav li .dropdown-menu li a {
+      background: white;
+      color: $rodgun-brown;
+      display: block;
+      padding: 15px 0;
+      clear: both;
+      font-weight: 400;
+      line-height: 1.428571429;
+      white-space: nowrap;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+      color: $rodgun-brown;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+      color: white;
+      background: $rodgun-green;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+      color: white;
+      background: $rodgun-green;
+  }
+  ul.menu-sidebar-menu li.menu-item a h3 {
+    font-size: 12pt;
+  }
+  .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+      background-color: none;
+      border-color: $rodgun-grey;
+  }
+  .navbar-default{
+
+    .contact-text {
+      float: none;
+      margin: 0 auto;
+      padding-bottom: 10px;
+      position: relative;
+      text-align: center;
+      font-size: 12pt;
+    }
+    .contact-link{
+      display: inline-block;
+    }
+    .contact-email{
+      padding-right: 10px;
+    }
+  }
+  #myCarousel.carousel-fade, .page-header-area{
+    padding-top: 113px;
+  }
+  #myCarousel.carousel-fade .home-slide {
+    max-height: 350px;
+  }
+  #myCarousel.carousel-fade .home-slide .home-slide-text h1.home-slide-title {
+    font-size: 16pt;
+  }
+  #myCarousel.carousel-fade .carousel-control {
+    display: none;
+  }
+  .home-sections .home-center-text-card {
+    padding: 10px 0;
+  }
+  .home-sections .home-center-text-card h2{
+    font-size: 18pt;
+  }
+  .home-sections .home-center-text-card .sub-text{
+    font-size: 14pt;
+  }
+  .home-sections .home-image-wall a.image-box h3.image-box-text{
+    font-size: 16pt;
+  }
+  .parallax-background{
+    background: $rodgun-green;
+    padding: 10px 0;
+
+    h2 {
+      font-size: 18pt;
+      font-weight: 400;
+    }
+    .sub-text{
+      font-size: 14pt;
+    }
+  }
+  ul.menu-sidebar-menu li.menu-item a {
+    display: block;
+    position: relative;
+    box-shadow: none;
+  }
+  ul.menu-sidebar-menu li.menu-item a h3 {
+    font-size: 16pt;
+  }
+  .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+      white-space: normal;
+  }
+  #MasonaryImageWall{
+
+    .masonry-row{
+
+      .masonry-block{
+        height: 100% !important;
+
+        .masonry-img, .masonry-img-sm{
+          display: block;
+          height: 124px;
+        }
+
+        .masonry-block-row{
+
+          .masonry-txt{
+            display: block;
+            margin: 0 20px;
+          }
+        }
+      }
+    }
+
+    .col-sm-6{
+      width: 50%;
+    }
+  }
+}
+/* Small devices (tablets, 480px and less) */
+@media (max-width: $screen-xs-min) {
+
+  #myCarousel.carousel-fade .home-slide {
+    max-height: 250px;
+  }
+}
