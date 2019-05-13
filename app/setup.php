@@ -126,3 +126,6 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+// Google Fonts
+define('GOOGLE_FONTS', 'Open+Sans:400,300,600,700,800,600italic');
