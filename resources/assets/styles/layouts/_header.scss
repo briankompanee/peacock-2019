@@ -5,3 +5,157 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+/* ==========================================================================
+   HEADER - Banner, Logo, Top Menu & Primary Navigation
+   ========================================================================== */
+.top-row-header-content{
+  padding-top: 20px;
+  text-align: right;
+
+  .contact-text{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14pt;
+    padding-right: 15px;
+  }
+}
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  font-family: $font1;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0);
+  box-shadow: 0px 5px 5px -5px rgba(0,0,0,0);
+}
+.navbar-default{
+  background: white;
+  color: $rodgun-green;
+  border-bottom: 1px solid $rodgun-light-grey;
+  padding: 0 15px;
+
+  .navbar-brand {
+    display: block;
+    float: none;
+    padding: 5px 0;
+    height: auto;
+    text-align: right;
+
+    img{
+      //width: 134px;
+    }
+  }
+  ul.navbar-nav{
+    margin-top: 25px;
+    margin-left: 15px;
+
+    li {
+      margin: 0;
+
+      a{
+        color: $rodgun-green;
+        font-family: $font2;
+        font-size: 12pt;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      a:hover{
+        background: white;
+        color: $rodgun-brown;
+      }
+      .dropdown-menu {
+        background: white;
+        color: $rodgun-brown;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 0;
+        border-top: none;
+        border-left: 1px solid $rodgun-grey;
+        border-right: 1px solid $rodgun-grey;
+        border-bottom: 1px solid $rodgun-grey;
+        border-radius: 0;
+        box-shadow: none;
+
+        li a {
+          background: white;
+          color: $rodgun-brown;
+          display: block;
+          padding: 3px 20px;
+          clear: both;
+          font-weight: 400;
+          line-height: 1.428571429;
+          white-space: nowrap;
+        }
+        li a:hover {
+        background: white;
+        color: $rodgun-green;
+        }
+      }
+    }
+  }
+  .navbar-nav>li.active>a, .navbar-nav>li.active>a:focus, .navbar-nav>li.active>a:hover {
+      color: $rodgun-brown;
+      background-color:transparent;
+  }
+  .contact-text{
+    margin-top: 10px;
+    font-size: 14pt;
+    font-weight: 600;
+    float: right;
+
+    .contact-link{
+
+      a{
+        color: $rodgun-green;
+
+        .fa{
+          color: $rodgun-brown;
+        }
+      }
+      a:hover{
+        color: $rodgun-green-light;
+
+        .fa{
+          color: $rodgun-brown;
+        }
+      }
+    }
+    .contact-phone{
+      margin-top: 5px;
+    }
+  }
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
+    color: $rodgun-brown;
+}
+/* ==========================================================================
+   Mobil Nav & Primary Navigation
+   ========================================================================== */
+.navbar-default .navbar-toggle {
+  background-color: $rodgun-green;
+  border-color: $rodgun-light-grey;
+
+  .icon-bar{
+    background-color: white;
+  }
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: $rodgun-green-light;
+
+  .icon-bar{
+    background-color: white;
+  }
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
