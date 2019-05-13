@@ -1,0 +1,34 @@
+.btn{
+  font-family: $font1;
+  font-weight: 400;
+}
+.btn-green{
+  color: #fff;
+  background-color: $rodgun-green;
+  border-color: darken($rodgun-green, 10%);
+}
+.btn-green:active, .btn-green:focus, .btn-green:hover{
+  color: #fff;
+  background-color: darken($rodgun-green, 10%);
+  border-color: darken($rodgun-green, 20%);
+}
+.btn-brown{
+  color: #fff;
+  background-color: $rodgun-brown;
+  border-color: darken($rodgun-brown, 10%);
+}
+.btn-brown:active, .btn-brown:focus, .btn-brown:hover{
+  color: #fff;
+  background-color: darken($rodgun-brown, 10%);
+  border-color: darken($rodgun-brown, 20%);
+}
+.btn-orange{
+  color: #fff;
+  background-color: $rodgun-orange;
+  border-color: darken($rodgun-orange, 10%);
+}
+.btn-orange:active, .btn-orange:focus, .btn-orange:hover{
+  color: #fff;
+  background-color: darken($rodgun-orange, 10%);
+  border-color: darken($rodgun-orange, 20%);
+}
